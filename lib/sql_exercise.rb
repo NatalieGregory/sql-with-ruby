@@ -12,4 +12,8 @@ class SqlExercise
     database_connection.sql("SELECT * from customers")
   end
 
+  def limit_customers(num_customers)
+    database_connection.sql("SELECT * FROM customers LIMIT #{num_customers}")
+  end
+
 end

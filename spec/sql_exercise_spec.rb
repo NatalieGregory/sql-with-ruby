@@ -1,4 +1,4 @@
-require "spec_helper"
+require "sql_exercise"
 
 describe SqlExercise do
 
@@ -35,7 +35,6 @@ describe SqlExercise do
     end
 
     it "can return three customers" do
-      skip
 
       expected_customers = [
         {
